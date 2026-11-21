@@ -1,0 +1,32 @@
+2026-11-21 17:19:08 | INFO     | === INICIO DEL SISTEMA INTEGRAL SOFTWARE FJ ===
+2026-11-21 17:19:08 | INFO     | Cliente registrado exitosamente: [CLI-01] Laura Martínez
+2026-11-21 17:19:08 | DEBUG    | [OP-01] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | INFO     | Cliente registrado exitosamente: [CLI-02] Carlos Gómez
+2026-11-21 17:19:08 | DEBUG    | [OP-02] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-03] ERR-101 (DatosInvalidosError): Formato de correo electrónico inválido: 'correo_sin_arroba.com'.
+2026-11-21 17:19:08 | DEBUG    | [OP-03] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-04] ERR-102 (ParametroFaltanteError): El nombre del cliente es obligatorio.
+2026-11-21 17:19:08 | DEBUG    | [OP-04] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | INFO     | Servicio ReservaSala creado: [SRV-01] Sala Innovación Cloud (Capacidad: 15)
+2026-11-21 17:19:08 | INFO     | Servicio AlquilerEquipo creado: [SRV-02] Workstation GPU RTX (Cómputo Alto Rendimiento)
+2026-11-21 17:19:08 | INFO     | Servicio AsesoriaEspecializada creado: [SRV-03] Arquitectura Microservicios (Cloud & DevOps)
+2026-11-21 17:19:08 | INFO     | Servicio ReservaSala creado: [SRV-04] Auditorio Principal (Capacidad: 60)
+2026-11-21 17:19:08 | DEBUG    | [OP-05] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-06] ERR-101 (DatosInvalidosError): La tarifa base 'cien_mil' debe ser numérica.
+2026-11-21 17:19:08 | DEBUG    | [OP-06] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | INFO     | Reserva creada en estado PENDIENTE: [RES-01]
+2026-11-21 17:19:08 | INFO     | Reserva CONFIRMADA: [RES-01] Cliente=Laura Martínez | Servicio=Sala Innovación Cloud | Total=$514080.0
+2026-11-21 17:19:08 | INFO     | Reserva PROCESADA: [RES-01] Valor final cobrado=$488376.0
+2026-11-21 17:19:08 | DEBUG    | [OP-07] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | INFO     | Reserva creada en estado PENDIENTE: [RES-02]
+2026-11-21 17:19:08 | INFO     | Reserva CONFIRMADA: [RES-02] Cliente=Carlos Gómez | Servicio=Workstation GPU RTX | Total=$654500.0
+2026-11-21 17:19:08 | WARNING  | Reserva CANCELADA: [RES-02] Motivo: Cambio de cronograma del cliente
+2026-11-21 17:19:08 | DEBUG    | [OP-08] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-09] ERR-201 (ServicioNoDisponibleError): El servicio 'Auditorio Principal' [SRV-04] no está disponible.
+2026-11-21 17:19:08 | DEBUG    | [OP-09] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-10] ERR-101 (DatosInvalidosError): Duración inválida para asesoría (15h). Rango permitido: 1 a 8 horas.
+2026-11-21 17:19:08 | DEBUG    | [OP-10] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-11] ERR-202 (ReservaInvalidaError): No se puede procesar la reserva [RES-02] en estado 'CANCELADA'. Debe estar CONFIRMADA.
+2026-11-21 17:19:08 | DEBUG    | [OP-11] Ciclo de ejecución finalizado (bloque finally).
+2026-11-21 17:19:08 | ERROR    | [OP-12] ERR-301 (CalculoInconsistenteError): Parámetros financieros fuera de rango: IVA=19.0%, Desc=150.0%, Extra=0.0
+2026-11-21 17:19:08 | DEBUG    | [OP-12] Ciclo de ejecución finalizado (bloque finally).
